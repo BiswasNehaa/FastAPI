@@ -1,0 +1,36 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+myenv/
+venv/
+env/
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# SQLite DB (if you use later)
+*.db
+
+# FastAPI / uvicorn cache
+*.pid
+
+# Test / coverage
+.coverage
+htmlcov/
+
+# Jupyter (if used later)
+.ipynb_checkpoints/

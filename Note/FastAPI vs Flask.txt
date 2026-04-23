@@ -1,0 +1,8 @@
+Gunicorn is a mature WSGI server designed for synchronous applications, 
+while Uvicorn is a high-performance ASGI server designed for modern asynchronous applications.
+
+WSGI (Web Server Gateway Interface):
+Designed for synchronous applications and is best suited for traditional request–response web applications.
+
+ASGI (Asynchronous Server Gateway Interface) :
+Supports asynchronous applications and efficiently handles long-lived connections such as WebSockets, along with non-HTTP protocols.

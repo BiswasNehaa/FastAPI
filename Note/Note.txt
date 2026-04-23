@@ -1,0 +1,11 @@
+Why APIs are needed (modern apps):
+
+In decoupled architecture, frontend and backend are separate systems
+API acts as the communication bridge between them
+Frontend sends requests, backend returns data through APIs
+Enables multiple clients (web, mobile, desktop) to use the same backend
+
+In monolithic apps:
+
+Frontend and backend can be tightly integrated, so internal APIs may be less visible/less necessary for communication between layers
+But monoliths still often expose APIs for external integrations or client apps

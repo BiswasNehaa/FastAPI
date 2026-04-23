@@ -1,0 +1,17 @@
+FastAPI is a modern, high performance web framework for building APIs with python.
+
+
+Made using 2 python lib:
+    1. Starlette : manages how your API receives Rqst and send back response.
+    2. Pydantic : Used to check if the data coming to your API is correct and in the right format.
+
+FastAPI is Fast to run and code.
+
+
+
+to run:
+uvicorn filename: fastapi_name --reload
+for ex:  uvicorn main:app --reload
+
+
+FastAPI_URl/docs : auto gen docs about the api
