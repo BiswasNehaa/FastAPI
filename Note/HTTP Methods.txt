@@ -1,0 +1,43 @@
+Dynamic SOftware Interaction: (CRUD)
+    1. Create 
+    2. Retrieve
+    3. Update
+    4. Delete
+
+HTTP Methods :
+    1. GET:
+        - Used to retrieve data from the server
+        - Data is sent in URL (query parameters)
+        - Example: Fetching a webpage or user data
+        - ❗ Not secure for sensitive data
+
+    2. POST
+    Used to send data to the server (create new resource)
+    Data is sent in request body
+    Example: Submitting a form, login/signup
+
+    3. PUT
+    Used to update/replace an existing resource
+    Sends full updated data
+    Example: Updating user profile completely
+
+
+   4.  PATCH
+    Used to partially update a resource
+    Only sends changed fields
+    Example: Updating only email or password
+
+
+    5. DELETE
+    Used to remove a resource
+    Example: Deleting a user account
+
+
+    6. HEAD
+    Same as GET but returns only headers, no body
+    Used to check response status
+
+
+    7. OPTIONS
+    Used to check allowed methods on a resource
+    Important for CORS (Cross-Origin Resource Sharing)
