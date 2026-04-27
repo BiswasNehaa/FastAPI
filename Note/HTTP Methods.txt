@@ -41,3 +41,16 @@ HTTP Methods :
     7. OPTIONS
     Used to check allowed methods on a resource
     Important for CORS (Cross-Origin Resource Sharing)
+
+
+
+
+
+    HTTP Status Code:
+        HTTP status codes are 3-digit numbers returned by the server to indicate the result of a request.
+
+     1xx: Request received, processing continues
+     2xx: Request was successful
+     3xx: Further action needed
+     4xx: Problem from client side
+     5xx: Server error

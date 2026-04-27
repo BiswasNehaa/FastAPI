@@ -1,0 +1,18 @@
+Path Parameters:
+    Path parameters are variables in the URL path used to identify a specific resource.
+
+    example: /users/101
+                Here 101 is path apar
+
+    used i FastApi for reference, update,Delete
+
+
+    
+@app.get('/patients/{patient_id}') # Path Para
+def view_patient(patient_id: str = Path(...,description='ID of the patient from db',exanple='Patient Id= P001')):    # So here the patient id here in the path The path means in the in the path it will show the examples and the description In the docs of the api
+    
+
+
+Path Function():
+The path function in fast api is used to provide metadata validation rules and documentation hints for 
+path parameters in your api endpoints.
